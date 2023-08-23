@@ -23,6 +23,16 @@
         "id": "https://mylovedsystem.github.io/Temp2/aaa/canvas-1/canvas",
         "type": "Canvas",
         "duration": 920.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://mylovedsystem.github.io/Temp2/annotations/aaa-canvas-1-02-22-00.json",
+            "label": {
+              "none": ["02:22:00"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://mylovedsystem.github.io/Temp2/aaa/canvas-1/paintings",
