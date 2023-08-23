@@ -1,0 +1,46 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://mylovedsystem.github.io/Temp2/aaa/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "AAA" ] },
+    "homepage": [
+      {
+        "id": "https://www.youtube.com/watch?v=bkAxJzJJXUY",
+        "type": "Text",
+        "label": { "en": [ "AAA" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://www.youtube.com/watch?v=bkAxJzJJXUY",
+        "type": "Agent",
+        "label": { "en": [ "https://www.youtube.com/watch?v=bkAxJzJJXUY" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://mylovedsystem.github.io/Temp2/aaa/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 920.0,
+        "items": [
+          {
+            "id": "https://mylovedsystem.github.io/Temp2/aaa/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://mylovedsystem.github.io/Temp2/aaa/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://www.youtube.com/watch?v=bkAxJzJJXUY",
+                    "duration": 920.0
+                },
+                "target": "https://mylovedsystem.github.io/Temp2/aaa/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
